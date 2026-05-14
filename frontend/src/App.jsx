@@ -8,7 +8,7 @@ function App() {
     const name = e.target[0].value;
     const age = e.target[1].value;
 
-    await fetch("https://backend-7gk3.onrender.com/api", {
+    await fetch("https://backend-7gk3.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
